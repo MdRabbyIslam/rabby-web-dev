@@ -1,0 +1,111 @@
+/*
+TODO ---basic typography--- 
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.08rem;
+  margin-bottom: 4rem;
+  color: dimgray;
+}
+
+/*
+TODO ---web-dev-rabby started css journey----
+*/
+
+.top-section,
+.second-section,
+.experience-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 15rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.top-section {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.second-section {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.orange-highlight {
+  color: lightsalmon;
+  font-weight: bold;
+}
+
+.discription,
+.image,
+.single-experience-box {
+  width: 40%;
+}
+
+.my-link-button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 1.2rem 3rem;
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+.experience-section {
+  justify-content: space-evenly;
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.single-experience-box {
+  box-shadow: 10px 10px 40px gray;
+  width: 35%;
+  padding: 3rem;
+  height: 35rem;
+  background-color: white;
+}
+
+#full-stack-border {
+  border-image: linear-gradient(180deg, salmon, tomato);
+  border-left: 0.7rem solid;
+  border-image-slice: 1;
+}
+
+#baby-border {
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-left: 0.7rem solid;
+  border-image-slice: 1;
+}
