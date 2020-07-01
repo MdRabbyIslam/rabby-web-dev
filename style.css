@@ -63,7 +63,7 @@ TODO ---web-dev-rabby started css journey----
 }
 
 .orange-highlight {
-  color: lightsalmon;
+  color: orange;
   font-weight: bold;
 }
 
@@ -108,4 +108,20 @@ TODO ---web-dev-rabby started css journey----
   border-image: linear-gradient(180deg, blue, cyan);
   border-left: 0.7rem solid;
   border-image-slice: 1;
+}
+
+.buttons {
+  height: 250px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.facebook-button {
+  box-shadow: inset 0px 1px 0px 0px red;
+  background: blue;
+  border: 1px solid yellow;
+  color: white;
+  text-shadow: 1px 1px black;
+  border-radius: 5px;
+  font-size: 2rem;
 }
